@@ -9,7 +9,7 @@ testTextStoredInNote();
 
 function testReturnsText() {
   var note = new Note("Hi");
-  assert.isTrue(note.gettingText() === "Hi");
+  assert.isTrue(note.getTextPublic() === "Hi");
 }
 
 testReturnsText();

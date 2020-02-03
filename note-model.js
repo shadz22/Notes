@@ -12,7 +12,7 @@ Note.prototype = (function() {
   }
 
   return {
-    gettingText: getText
+    getTextPublic: getText
   }
 
 
